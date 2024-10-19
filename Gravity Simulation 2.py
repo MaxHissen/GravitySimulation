@@ -12,9 +12,9 @@ body_id = 0 #used to keep track of id of body created
 class Simulation:
     def __init__(self):
         bodies = []
-        bodies.append(Body(2,0,0,0.95,50))
-        bodies.append(Body(-10,0,0,-0.73,1))
-        bodies.append(Body(50,0,0,-0.00001,1))
+        bodies.append(Body(-5,0,0,0.4,5))
+        bodies.append(Body(5,0,0,-0.4,5))
+        bodies.append(Body(30,0,0,-0.75,1))
 
         self.bodies = bodies
 
